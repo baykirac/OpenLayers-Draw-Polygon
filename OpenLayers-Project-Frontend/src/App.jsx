@@ -13,8 +13,13 @@ import { Menubar } from "primereact/menubar";
 import { Dialog } from "primereact/dialog";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
+import { DataTable } from "primereact/datatable";
+import { Column } from "primereact/column";
+
+import api from "./api/api";
 function App() {
   const [visible, setVisible] = useState(false);
+  const [datatableVisible, setDatatableVisible] = useState(false);
   const [map, setMap] = useState(null);
   const [newPolygonId, setNewPolygonId] = useState("");
   const [newPolygonName, setNewPolygonName] = useState("");
@@ -22,7 +27,6 @@ function App() {
   const [newCoordinates, setNewCoordinates] = useState(null);
   const [newSnap, setNewSnap] = useState(null);
   const [dummyData, setDummyData] = useState([]);
-
 
   const items = [
     {
@@ -36,7 +40,7 @@ function App() {
       label: "Query Drawing",
       icon: "pi pi-server",
       command: (event) => {
-        source.removeFeatures();
+        setDatatableVisible(true);
       },
     },
   ];
@@ -86,10 +90,29 @@ function App() {
       //setNewSnap(snap);
     });
   }
+
+  const fetchData = async () => {
+    const response = await api.get("GetAll");
+    if (response.isSuccess) {
+      setDummyData(response.body);
+    }
+  };
+
+  const addPolygon = async () => {
+    console.log(newCoordinates)
+    const newPolygon = {
+      id: newPolygonId,
+      name: newPolygonName,
+      coordinates: newCoordinates
+    };
+    const response = await api.post("Push",newPolygon);
+    if (response.isSuccess) {
+      setDummyData(response.body);
+    }
+  }
   useEffect(() => {
     vectorSource = new VectorSource();
 
-    // Create features from dummy data
     dummyData.forEach((polygon) => {
       const feature = new Feature({
         geometry: new Polygon([
@@ -99,7 +122,6 @@ function App() {
       feature.setProperties({ name: polygon.name, id: polygon.id });
       vectorSource.addFeature(feature);
     });
-
     vectorLayer = new VectorLayer({
       source: vectorSource,
     });
@@ -120,7 +142,9 @@ function App() {
     setMap(map2);
     return () => map2.setTarget(undefined);
   }, [dummyData]);
- 
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -158,16 +182,23 @@ function App() {
           icon="pi pi-plus"
           style={{ marginLeft: "100px" }}
           onClick={() => {
-            //map.addInteraction(newSnap);
-            const newPolygon = {
-              id: newPolygonId,
-              name: newPolygonName,
-              coordinates: newCoordinates,
-            };
-            setDummyData(prevPolygons => [...prevPolygons, newPolygon]);
-            console.log(dummyData);
+            addPolygon();
           }}
         />
+      </Dialog>
+      <Dialog
+        header="Results"
+        visible={datatableVisible}
+        position="top"
+        onHide={() => {
+          if (!datatableVisible) return;
+          setDatatableVisible(false);
+        }}
+      >
+        <DataTable value={dummyData} tableStyle={{ minWidth: "50rem" }}>
+          <Column field="id" header="Id"></Column>
+          <Column field="name" header="Name"></Column>
+        </DataTable>
       </Dialog>
     </>
   );

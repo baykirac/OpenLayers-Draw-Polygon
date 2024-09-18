@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|c:\\users\\kirac\\onedrive\\desktop\\openlayers project\\openlayers-project-backend\\openlayers-project-backend\\services\\ipolygonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|solutionrelative:openlayers-project-backend\\services\\ipolygonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|c:\\users\\kirac\\onedrive\\desktop\\openlayers project\\openlayers-project-backend\\openlayers-project-backend\\services\\polygonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|solutionrelative:openlayers-project-backend\\services\\polygonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|c:\\users\\kirac\\onedrive\\desktop\\openlayers project\\openlayers-project-backend\\openlayers-project-backend\\controllers\\polygoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|solutionrelative:openlayers-project-backend\\controllers\\polygoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|c:\\users\\kirac\\onedrive\\desktop\\openlayers project\\openlayers-project-backend\\openlayers-project-backend\\entity\\polygon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|solutionrelative:openlayers-project-backend\\entity\\polygon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|c:\\users\\kirac\\onedrive\\desktop\\openlayers project\\openlayers-project-backend\\openlayers-project-backend\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11184700-19A1-464A-9D91-D89ACC043863}|OpenLayers-Project-Backend\\OpenLayers-Project-Backend.csproj|solutionrelative:openlayers-project-backend\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Polygon.cs",
+              "DocumentMoniker": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Entity\\Polygon.cs",
+              "RelativeDocumentMoniker": "OpenLayers-Project-Backend\\Entity\\Polygon.cs",
+              "ToolTip": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Entity\\Polygon.cs",
+              "RelativeToolTip": "OpenLayers-Project-Backend\\Entity\\Polygon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:57:15.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "OpenLayers-Project-Backend\\Response\\Response.cs",
+              "ToolTip": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Response\\Response.cs",
+              "RelativeToolTip": "OpenLayers-Project-Backend\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:52:23.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolygonController.cs",
+              "DocumentMoniker": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Controllers\\PolygonController.cs",
+              "RelativeDocumentMoniker": "OpenLayers-Project-Backend\\Controllers\\PolygonController.cs",
+              "ToolTip": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Controllers\\PolygonController.cs",
+              "RelativeToolTip": "OpenLayers-Project-Backend\\Controllers\\PolygonController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA/wBsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:31:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PolygonService.cs",
+              "DocumentMoniker": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Services\\PolygonService.cs",
+              "RelativeDocumentMoniker": "OpenLayers-Project-Backend\\Services\\PolygonService.cs",
+              "ToolTip": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Services\\PolygonService.cs",
+              "RelativeToolTip": "OpenLayers-Project-Backend\\Services\\PolygonService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwB4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:23:23.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPolygonService.cs",
+              "DocumentMoniker": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Services\\IPolygonService.cs",
+              "RelativeDocumentMoniker": "OpenLayers-Project-Backend\\Services\\IPolygonService.cs",
+              "ToolTip": "C:\\Users\\kirac\\OneDrive\\Desktop\\OpenLayers Project\\OpenLayers-Project-Backend\\OpenLayers-Project-Backend\\Services\\IPolygonService.cs",
+              "RelativeToolTip": "OpenLayers-Project-Backend\\Services\\IPolygonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:22:49.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 75,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
